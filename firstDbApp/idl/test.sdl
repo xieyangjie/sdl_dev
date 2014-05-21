@@ -1,0 +1,17 @@
+#include "test_def.sdl"
+module MFirstTest
+{
+	interface ITestHelloWorld
+	{
+		int32 out_helloWorld();
+	}
+	interface IGetCycleRunData
+	{
+		int32 query_cycleRunData(out int32 iListSize);
+	}
+	interface IInsertCycleRunData
+	{
+		int32 insert_cycleRunData(in MTestDef::SCycleRunInfo sCycleRunInfo);
+	}
+}
+ 

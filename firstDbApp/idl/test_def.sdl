@@ -1,0 +1,17 @@
+module MTestDef
+{
+	struct SCycleRunInfo
+	{
+		int64 acct_id;
+		int32 cycle_spec_id;
+		int32 real_cycle_spec_id;
+		int32 last_cycle_begin;
+		int32 last_cycle_end;
+		int32 curr_cycle_begin;
+		int32 curr_cycle_end;
+		datetime mod_date;
+		datetime create_date;
+		int32 cycle_sts;
+	}
+	list vector<SCycleRunInfo> SCycleRunInfoList;
+}	

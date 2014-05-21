@@ -1,0 +1,7 @@
+module MCaCycleRunDb
+{
+	struct CCaCycleRun import table CA_CYCLE_RUN
+	{
+	};
+	list vector<CCaCycleRun> CCaCycleRunList;
+}

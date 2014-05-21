@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <ipc_key_path>$HOME/ipc/xc</ipc_key_path>
+    <xc_operate_type>attach</xc_operate_type>
+     <abm_deductfee_dbconn>
+        <conn>10.10.10.120:1521/oel1201</conn>
+        <runmode>1</runmode>
+    </abm_deductfee_dbconn>
+    
+    <databases>
+        <database>
+          <alias>BILLING_DB</alias>
+          <type>oracle</type>
+          <name>10.10.10.120:1521/oel1201</name>
+          <uid>ad</uid>
+          <pwd>ad</pwd>
+        </database>
+        <database>
+          <alias>billing_db</alias>
+          <type>oracle</type>
+          <name>10.10.10.120:1521/oel1201</name>
+          <uid>ad</uid>
+          <pwd>ad</pwd>
+        </database>
+        <database>
+          <alias>billing_db2</alias>
+          <type>oracle</type>
+          <name>10.10.10.120:1521/oel1201</name>
+          <uid>ad</uid>
+          <pwd>ad</pwd>
+        </database>
+        <database>
+          <alias>op_id</alias>
+          <type>oracle</type>
+          <name>10.10.10.124:1521/oel124f</name>
+          <uid>id</uid>
+          <pwd>id</pwd>
+        </database>
+        <database>
+          <alias>op_zd</alias>
+          <type>oracle</type>
+          <name>10.10.10.124:1521/oel124f</name>
+          <uid>ZD</uid>
+          <pwd>ZD</pwd>
+          </database>
+    </databases>
+
+    <public_db_alias>billing_db</public_db_alias>
+    <db_schema_mapping>AD:AD,ID:ID,ZD:ZD</db_schema_mapping>
+</root>
+
